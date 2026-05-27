@@ -1,0 +1,441 @@
+!DOCTYPE html>  
+
+  
+
+<html lang="en">  
+
+  
+
+<meta charset="UTF-8">   
+
+  
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">   
+
+  
+
+ <link rel="icon" type="image/png" href="images/favicon.png"> 
+
+  
+
+<title>Falcon's Snow Cones</title>  
+
+  
+
+  
+
+<script src="https://cdn.tailwindcss.com"></script>   
+
+  
+
+<style>   
+
+ body {   
+font-family: 'Inter', sans-serif;   
+}   
+ 
+
+  
+
+    .page-container {   
+
+  
+
+        min-height: 100vh;   
+
+  
+
+        display: flex;   
+
+  
+
+        flex-direction: column;   
+
+  
+
+        padding-top: 64px; /* Space for the fixed header */   
+
+  
+
+    }   
+
+  
+ 
+
+  
+
+    @media (max-width: 640px) {   
+
+  
+
+        .page-container {   
+
+  
+
+            padding-top: 100px; /* More space for the stacked mobile header */   
+
+  
+
+        }   
+
+  
+
+    }   
+ 
+
+  
+
+    .feature-card {   
+
+  
+
+        box-shadow: 0 10px 20px rgba(0,0,0,0.1);   
+
+  
+
+        transition: transform 0.3s ease;   
+
+  
+
+    }   
+
+  
+
+    .feature-card:hover {   
+
+  
+
+        transform: translateY(-5px);   
+
+  
+
+    }   
+
+  
+
+</style>   
+
+ <div class="page-container">   
+
+  
+
+       
+
+  
+
+    <header class="fixed top-0 left-0 w-full bg-white shadow-lg z-50">   
+
+  
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row justify-between items-center py-2">   
+
+  
+
+               
+
+  
+
+            <div class="logo text-xl font-extrabold px-3 py-1 bg-sky-700 text-white rounded-md shadow-md mb-2 sm:mb-0">   
+
+  
+
+                FALCON'S SNOW CONES   
+
+  
+
+            </div>   
+
+  
+
+               
+
+  
+
+            <nav class="menu flex items-center space-x-4">   
+
+  
+
+                <a href="menu.html" class="text-sky-700 hover:text-sky-500 font-semibold transition duration-150 rounded-lg p-2"> >Menu</a>   
+
+
+  
+
+                <a href="calender.html" class="text-sky-700 hover:text-sky-500 font-semibold transition duration-150 rounded-lg p-2">Calender</a>   
+
+  
+
+                   
+
+  
+
+                <button class="bg-sky-700 text-white px-4 py-2 rounded-lg font-semibold shadow-lg hover:bg-sky-600 transition duration-150 ease-in-out transform hover:scale-105"><a href="contact.html">   
+
+  
+
+                    Contact Us</a>  
+
+  
+
+                </button>   
+
+  
+
+            </nav>   
+
+  
+
+        </div>   
+
+  
+
+    </header>   
+
+  
+
+  
+
+  
+
+    <main class="flex-grow flex flex-col items-center justify-center p-0 w-full">   
+
+  
+
+           
+
+  
+
+        <section class="w-full h-[70vh] flex items-center justify-center text-white p-4 bg-blue-400">   
+
+  
+
+            <div class="bg-black bg-opacity-40 p-8 rounded-xl max-w-2xl text-center shadow-2xl">   
+
+  
+
+                <h1 class="text-5xl md:text-6xl font-black mb-4 tracking-tight">   
+
+  
+
+                    Check out our Menu!  
+
+  
+
+                </h1>   
+
+  
+
+                <p class="text-xl font-light mb-8">   
+
+  
+
+                    Experience our signature layered snow cones, featuring real fruit flavors and secret syrups. Find your chill today!   
+
+  
+
+                </p>   
+
+  
+
+                <button class="bg-red-500 text-white text-lg font-bold px-8 py-3 rounded-full shadow-xl hover:bg-red-600 transition duration-300 transform hover:scale-105 uppercase tracking-wider">   
+
+  
+
+                    View Our Full Menu   
+
+  
+
+                </button>   
+
+  
+
+            </div>   
+
+  
+
+        </section>   
+
+  
+
+  
+
+  
+
+        <section class="w-full max-w-7xl mx-auto py-16 px-6">   
+
+  
+
+            <h2 class="text-4xl font-extrabold text-sky-800 mb-10 text-center">What's New at Falcon's?</h2>   
+
+  
+
+               
+
+  
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">   
+
+  
+
+                   
+
+  
+
+                <div class="feature-card bg-white p-6 rounded-xl border-t-4 border-red-500 text-center">   
+
+  
+
+                    <img src="images/pineapple.jpg" width="400px">  
+
+  
+
+                    <h3 class="text-2xl font-bold text-sky-700 mb-2">Tropical Blast</h3>   
+
+  
+
+                    <p class="text-gray-600 mb-4">   
+
+  
+
+                        Our limited-time Pineapple Coconut flavor is back. Get it while the lasts!   
+
+  
+
+                    </p>   
+
+  
+
+                    <a href="#" class="text-red-500 font-semibold hover:text-red-700">Learn More &rarr;</a>   
+
+  
+
+                </div>   
+
+  
+
+  
+
+  
+
+                <div class="feature-card bg-white p-6 rounded-xl border-t-4 border-sky-500 text-center">   
+
+  
+
+                    <img src="images/weston.jpg"    
+
+  
+
+                         alt="New Location Map Pin"    
+
+  
+
+                         class="rounded-lg mb-4 w-full h-48 object-cover">   
+
+  
+
+                    <h3 class="text-2xl font-bold text-sky-700 mb-2">New Location</h3>   
+
+  
+
+                    <p class="text-gray-600 mb-4">   
+
+  
+
+                        We've opened a new truck location at Weston Regional Park! Come Visit Us!  
+
+  
+
+                    </p>   
+
+  
+
+                    <a href="#" class="text-sky-500 font-semibold hover:text-sky-700">See Location &rarr;</a>   
+
+  
+
+                </div>   
+
+  
+
+  
+
+  
+
+                <div class="feature-card bg-white p-6 rounded-xl border-t-4 border-lime-500 text-center">   
+
+  
+
+                    <img src="images/logo.png">  
+
+  
+
+                    <h3 class="text-2xl font-bold text-sky-700 mb-2">Join the Chill Club</h3>   
+
+  
+
+                    <p class="text-gray-600 mb-4">   
+
+  
+
+                        Sign up for our loyalty program and get 15% off your next five snow cones!   
+
+  
+
+                    </p>   
+
+  
+
+                    <a href="#" class="text-lime-500 font-semibold hover:text-lime-700">Sign Up Now &rarr;</a>   
+
+  
+
+                </div>   
+
+  
+
+            </div>   
+
+  
+
+        </section>   
+
+  
+
+  
+
+  
+
+    </main>   
+
+  
+
+  
+
+  
+
+    <footer class="bg-sky-700 text-white p-4 text-center text-sm">   
+
+  
+
+        <div class="max-w-7xl mx-auto">   
+
+  
+
+            &copy; 2025 Falcon's Snow Cones. 7th Grade Project.   
+
+  
+
+        </div>   
+
+  
+
+    </footer>   
+
+  
+
+</div>   
+
+  
+
+</html> 
+
+ 
